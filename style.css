@@ -1,0 +1,31 @@
+body{
+    flex-direction: column;
+    background-color:#3b5998
+}
+
+body, .header, .header-links{
+    display: flex;
+}
+
+.header{
+    justify-content: space-between;
+    padding: 14px;
+}
+
+.header > img{
+    height: auto;
+    width: 250px;
+    margin-left: 100px;
+}
+
+.header-links > a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-links{
+    gap: 16px;
+    margin-right: 100px;
+   
+}
