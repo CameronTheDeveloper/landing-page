@@ -21,8 +21,6 @@ body, .header, .header-links, .footer-links{
 }
 
 .header-links > a{
-    color: white;
-    text-decoration: none;
     font-size: 18px;
 }
 
@@ -33,10 +31,19 @@ body, .header, .header-links, .footer-links{
 }
 
 .footer{
-    margin-top: 20em;
+    padding: 16px;  
 }
 
 .footer-links{
     justify-content: center;
+    color: white;
+    font-size: 14px;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
  
