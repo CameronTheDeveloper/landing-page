@@ -3,9 +3,11 @@ body{
     background-color:#3b5998
 }
 
-body, .header, .header-links{
+body, .header, .header-links, .footer-links{
     display: flex;
 }
+
+
 
 .header{
     justify-content: space-between;
@@ -29,3 +31,12 @@ body, .header, .header-links{
     margin-right: 100px;
    
 }
+
+.footer{
+    margin-top: 20em;
+}
+
+.footer-links{
+    justify-content: center;
+}
+ 
