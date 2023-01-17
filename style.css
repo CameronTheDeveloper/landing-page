@@ -3,7 +3,7 @@ body{
     background-color:#3b5998
 }
 
-body, .header, .header-links, .footer-links{
+body, .header, .content, .header-links, .footer-links{
     display: flex;
 }
 
@@ -28,6 +28,20 @@ body, .header, .header-links, .footer-links{
     gap: 16px;
     margin-right: 100px;
    
+}
+
+.content{
+    background-color: grey;
+    justify-content: center;
+}
+
+.welcome{
+    width: 500px;
+}
+
+.welcome.top{
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .footer{
