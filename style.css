@@ -8,11 +8,11 @@ a{
 }
 
 body, .header, .header-links, 
-.content, .welcome, .footer-links, .ad {
+.content, .content-top, .top-left, .footer-links, .ad {
     display: flex;
 }
 
-body, .content, .content-top{
+body, .content, .top-left{
     flex-direction: column;
 } 
 
@@ -44,13 +44,20 @@ body, .content, .content-top{
     border-radius: 50px;
 }
 
-.welcome{
-    width: 900px;
+.top-left{
+    width: 700px;
 }
 
-.welcome.top{
+.welcome-top{
     font-size: 20px;
     font-weight: 700;
+}
+
+.button-top{
+    width: 75px;
+    background-color:rgb(84, 150, 236);
+    border-radius: 5px;
+    border-width: 1px;
 }
  
 .content-bott{
@@ -67,7 +74,7 @@ border-radius: 5px;
 font-family:'Times New Roman', Times, serif;
 }
 
-.ad-button{
+.button-bott{
     margin: 16px;
     margin-left: 60px;
     padding: 5px;
