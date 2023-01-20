@@ -64,6 +64,12 @@ body, .content, .top-left{
     height: auto;
     width: 75px;
 }
+
+.mid-top{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
  
 .content-bott{
     align-items: center;
