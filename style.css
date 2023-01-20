@@ -8,7 +8,8 @@ a{
 }
 
 body, .header, .header-links, 
-.content, .content-top, .top-left, .footer-links, .ad {
+.content, .content-top, .mid-top, .mid-mid,
+.mid-bott, .top-left, .footer-links, .ad{
     display: flex;
 }
 
@@ -38,10 +39,8 @@ body, .content, .top-left{
 }
 
 .content{
-    background-color: rgb(182, 184, 184);
     align-items: center;
-    height: 25em;
-    border-radius: 50px;
+    flex: 0;
 }
 
 .top-left{
@@ -49,7 +48,7 @@ body, .content, .top-left{
 }
 
 .welcome-top{
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 700;
 }
 
@@ -63,16 +62,44 @@ body, .content, .top-left{
 .top-img{
     height: auto;
     width: 75px;
+    padding: 16x;
+}
+
+.mid-mid, .content-bott{
+    background-color: rgb(182, 184, 184);
 }
 
 .mid-top{
     font-size: 30px;
     color: white;
     font-weight: 700;
+    justify-content: center;
+    padding: 16px;
+}
+
+.mid-mid{
+    gap: 5em;
+    padding: 16px;
+}
+
+.mid-bott{
+    font-size: 24px;
+    width: 700px;
+    background-color: white;
+}
+
+.box > img, .box{
+    height: auto;
+    width: 150px;
+}
+
+.box > img{
+    border-radius: 16px;
 }
  
 .content-bott{
     align-items: center;
+    padding: 32px;
 }
 
 .ad{
