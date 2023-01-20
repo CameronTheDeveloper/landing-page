@@ -59,6 +59,11 @@ body, .content, .top-left{
     border-radius: 5px;
     border-width: 1px;
 }
+
+.top-img{
+    height: auto;
+    width: 75px;
+}
  
 .content-bott{
     align-items: center;
