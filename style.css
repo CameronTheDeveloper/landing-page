@@ -1,5 +1,8 @@
+
+
 body{
-    background-color:#3b5998
+    margin: 0;
+    background-color:#3b5998;
 }
 
 a{
@@ -7,16 +10,20 @@ a{
     text-decoration: none;
 }
 
-body, .header, .header-links, 
-.content, .content-top, .mid-top, .mid-mid,
-.mid-bott, .top-left, .footer-links, .ad{
+.header, .header-links, 
+.content, .content-top,  .mid,
+.top-left, .footer-links, .ad,
+.content-bott
+{
     display: flex;
 }
 
-body, .content, .top-left{
+.content, .top-left, .content-mid{
     flex-direction: column;
 } 
 
+
+/* Header */
 .header{
     justify-content: space-between;
     padding: 14px;
@@ -38,9 +45,15 @@ body, .content, .top-left{
    
 }
 
+/* Content */
 .content{
-    align-items: center;
-    flex: 0;
+    align-items: center;   
+}
+
+/* Content top */
+
+.content-top{
+    padding: 32px;
 }
 
 .top-left{
@@ -48,7 +61,7 @@ body, .content, .top-left{
 }
 
 .welcome-top{
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 700;
 }
 
@@ -57,35 +70,35 @@ body, .content, .top-left{
     background-color:rgb(84, 150, 236);
     border-radius: 5px;
     border-width: 1px;
+    margin-top:16px;
 }
 
 .top-img{
     height: auto;
-    width: 75px;
-    padding: 16x;
+    width:125px;
+    padding: 16px;
+    
 }
 
-.mid-mid, .content-bott{
+/* Content mid */
+.content-mid, .content-bott{
     background-color: rgb(182, 184, 184);
+    width: 100%;
+  
 }
 
-.mid-top{
+.mid{
+    justify-content: center;
+    padding: 32px;
+}
+.mid.top{
     font-size: 30px;
     color: white;
     font-weight: 700;
-    justify-content: center;
-    padding: 16px;
 }
 
-.mid-mid{
+.mid.mid{
     gap: 5em;
-    padding: 16px;
-}
-
-.mid-bott{
-    font-size: 24px;
-    width: 700px;
-    background-color: white;
 }
 
 .box > img, .box{
@@ -96,20 +109,29 @@ body, .content, .top-left{
 .box > img{
     border-radius: 16px;
 }
- 
-.content-bott{
-    align-items: center;
+
+.mid.bott{
+    font-size: 24px;
+    background-color: white; 
+    border-radius: 5px;
     padding: 32px;
+
 }
 
+/* Content bottom */
+.content-bott{
+    justify-content: center;
+}
+
+
 .ad{
-width: 800px;
-height: 50px;
-padding: 30px;
-margin: 16px;
-background-color:rgb(59, 139, 244);
-border-radius: 5px;
-font-family:'Times New Roman', Times, serif;
+    width: 800px;
+    height: 50px;
+    padding: 34px;
+    margin: 64px;
+    background-color:rgb(59, 139, 244);
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .button-bott{
@@ -137,6 +159,8 @@ font-family:'Times New Roman', Times, serif;
     font-weight:900;
 }
  
+
+/* Footer */
 .footer{
     padding: 16px;  
 }
