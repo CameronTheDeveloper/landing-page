@@ -115,8 +115,18 @@ a{
     background-color: white; 
     border-radius: 5px;
     padding: 32px;
-
 }
+
+.quote.text{
+    width: 500px;
+}
+
+.quote.person{
+    margin-left: 450px;
+    margin-top:8px;
+}
+
+
 
 /* Content bottom */
 .content-bott{
